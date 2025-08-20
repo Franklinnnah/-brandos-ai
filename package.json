@@ -1,0 +1,9 @@
+{
+  "name": "brandos-monorepo",
+  "private": true,
+  "scripts": {
+    "web": "pnpm --filter web...",
+    "api": "pnpm --filter api..."
+  },
+  "packageManager": "pnpm@8.15.5"
+}
